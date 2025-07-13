@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../images/background.jpg');
+    background-color: #f2f4f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    background-color: #3f4c6b;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.8rem 2rem;
+    gap: 2rem;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #ffd700;
+}
+
+.intro {
+    padding: 2rem;
+    color: #f5eded;
+    max-width: 800px;
+}
+
+.intro h1 {
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    margin-bottom: 0.5rem;
+}
+
+.form-section {
+    background-color: rgba(63, 76, 107, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 2rem;
+    color: #fff;
+}
+
+.form-section h2 {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+form button {
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #e6c200;
+}
